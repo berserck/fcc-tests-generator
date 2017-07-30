@@ -13,12 +13,12 @@ for ( i = 0; i< myArgs.length; i++){
     var stream = fs.createWriteStream(filename);
 
     stream.write(`describe( "Tests for ${v["code-file"]}", function(){\n`);
-    stream.write(`\tvar ${v["function-under-test"]} = require ('../../${v["code-file"].slice(0,-3)}').${v["function-under-test"]};\n`);
+    stream.write(`\tvar ${v["function-under-test"]} = require ('${v["code-file"].slice(0,-3)}').${v["function-under-test"]};\n`);
 
     var tests = v["test-descriptions"];
     for (j =  0; j < tests.length; j++){
         stream.write(`\tit ('${jsStringEscape(tests[j])}', function() {\n`);
-        stream.write(`\t\texpect(${getTesCall(tests[j])}).toBe(${getTestResult(tests[j])});\n`);
+        stream.write(`\t\texpect(${getTesCall(tests[j])}).${v["assert-function"]}(${getTestResult(tests[j])});\n`);
         stream.write("\t});\n");
     }
     stream.write("});\n");
