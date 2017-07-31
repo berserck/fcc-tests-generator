@@ -1,0 +1,11 @@
+{
+    "code-file": "../../intermediate/sum-all-primes.js",
+    "test-folder": "../fcc-Frontend/spec/intermediate-tests",
+    "function-under-test": "sumPrimes",
+    "assert-function": "toBe",
+    "test-descriptions": [
+        "typeof sumPrimes(10) should return 'number'.",
+        "sumPrimes(10) should return 17.",
+        "sumPrimes(977) should return 73156."
+    ]
+}

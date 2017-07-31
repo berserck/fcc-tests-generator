@@ -1,0 +1,13 @@
+{
+  "code-file": "../../intermediate/sum-all-numbers-in-a-range.js",
+  "test-folder": "../fcc-Frontend/spec/intermediate-tests",
+  "function-under-test": "sumAll",
+  "assert-function": "toBe",
+  "test-descriptions": [
+    "typeof sumAll([1, 4]) should return 'number'.",
+    "sumAll([1, 4]) should return 10.",
+    "sumAll([4, 1]) should return 10.",
+    "sumAll([5, 10]) should return 45.",
+    "sumAll([10, 5]) should return 45."
+  ]
+}

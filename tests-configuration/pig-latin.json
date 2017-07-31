@@ -1,0 +1,13 @@
+{
+    "code-file": "../../intermediate/pig-latin.js",
+    "test-folder": "../fcc-Frontend/spec/intermediate-tests",
+    "function-under-test": "translatePigLatin",
+    "assert-function": "toBe",
+    "test-descriptions": [
+        "translatePigLatin('california') should return 'aliforniacay'.",
+        "translatePigLatin('paragraphs') should return 'aragraphspay'.",
+        "translatePigLatin('glove') should return 'oveglay'.",
+        "translatePigLatin('algorithm') should return 'algorithmway'.",
+        "translatePigLatin('eight') should return 'eightway'."
+    ]
+}

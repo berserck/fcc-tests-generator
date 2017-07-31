@@ -1,0 +1,12 @@
+{
+  "code-file":"../../intermediate/missing-letters.js",
+  "test-folder":"../fcc-Frontend/spec/intermediate-tests",
+  "function-under-test":"fearNotLetter",  
+  "assert-function": "toBe",
+  "test-descriptions": [
+"fearNotLetter('abce') should return 'd'.",
+"fearNotLetter('abcdefghjklmno') should return 'i'.",
+"fearNotLetter('bcd') should return undefined.",
+"fearNotLetter('yz') should return undefined."
+  ]
+}
