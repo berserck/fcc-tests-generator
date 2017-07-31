@@ -1,6 +1,6 @@
 {
   "code-file":"../../intermediate/diff-two-arrays.js",
-  "test-folder":"genTests",
+  "test-folder":"../fcc-Frontend/spec/intermediate-tests",
   "function-under-test":"diffArray",  
   "assert-function": "toEqual",
   "test-descriptions": [

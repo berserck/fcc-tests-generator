@@ -1,6 +1,6 @@
 {
   "code-file":"../../intermediate/dna-pairing.js",
-  "test-folder":"/Users/pgp/gitRepos/fcc-Frontend/spec/intermediate-tests",
+  "test-folder":"../fcc-Frontend/spec/intermediate-tests",
   "function-under-test":"pairElement",
   "assert-function": "toEqual",
   "test-descriptions": [
