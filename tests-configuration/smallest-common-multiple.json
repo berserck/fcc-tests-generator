@@ -1,0 +1,13 @@
+{
+    "code-file": "../../smallest-common-multiple.js",
+    "test-folder": "../fcc-Frontend/spec/intermediate-tests",
+    "function-under-test": "smallestCommons",
+    "assert-function": "toBe",
+    "test-descriptions": [
+        "typeof smallestCommons([1, 5]) should return 'number'.",
+        "smallestCommons([1, 5]) should return 60.",
+        "smallestCommons([5, 1]) should return 60.",
+        "smallestCommons([1, 13]) should return 360360.",
+        "smallestCommons([23, 18]) should return 6056820."
+    ]
+}

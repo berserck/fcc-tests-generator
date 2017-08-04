@@ -1,0 +1,13 @@
+{
+    "code-file": "../../intermediate/arguments-optional.js",
+    "test-folder": "../fcc-Frontend/spec/intermediate-tests",
+    "function-under-test": "addTogether",
+    "assert-function": "toBe",
+    "test-descriptions": [
+        "addTogether(2, 3) should return 5.",
+        "addTogether(2)(3) should return 5.",
+        "typeof addTogether('http://bit.ly/IqT6zt') should return 'undefined'.",
+        "typeof addTogether(2, '3') should return 'undefined'.",
+        "typeof addTogether(2)([3]) should return 'undefined'."
+    ]
+}
