@@ -1,5 +1,5 @@
 {
-    "code-file": "../../smallest-common-multiple.js",
+    "code-file": "../../intermediate/smallest-common-multiple.js",
     "test-folder": "../fcc-Frontend/spec/intermediate-tests",
     "function-under-test": "smallestCommons",
     "assert-function": "toBe",
